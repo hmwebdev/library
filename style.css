@@ -1,0 +1,24 @@
+body {
+  background-color: #edede9;
+  margin-top: 2rem;
+}
+
+.list-group {
+  width: 100%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.list-group-item {
+  background-color: #f5ebe0;
+}
+
+a.nav-link.active {
+  background-color: #e3d5ca !important;
+  color: #212529 !important;
+}
+
+#sidebar {
+  background-color: #d5bdaf !important;
+  height: 93vh;
+}
