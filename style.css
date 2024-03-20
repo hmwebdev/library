@@ -22,3 +22,7 @@ a.nav-link.active {
   background-color: #d5bdaf !important;
   height: 93vh;
 }
+
+#logo {
+  width: 100px;
+}
