@@ -5,12 +5,13 @@ const list = document.getElementById("list");
 
 // Functions
 
-function Book(title, author, pages, read) {
-  // (string, string, int, bool)
-  this.title = title;
-  this.author = author;
-  this.pages = pages;
-  this.read = read;
+class Book {
+  constructor(title, author, pages, read) {
+    this.title = title;
+    this.author = author;
+    this.pages = pages;
+    this.read = read;
+  }
 }
 
 function fetchBookInfo() {
